@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="devaguptam.sreelaya.g.teachingassistant">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ta"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/ta"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".Main"
+            android:theme="@style/MainTheme" />
+        <activity
+            android:name=".Splash"
+            android:screenOrientation="portrait"
+            android:theme="@style/FullScreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Levels" />
+        <activity android:name=".Profile" />
+        <activity
+            android:name=".SignUp"
+            android:theme="@style/FullScreen" />
+        <activity
+            android:name=".Login"
+            android:theme="@style/FullScreen" />
+        <activity android:name=".Basics" />
+        <activity android:name=".Novices" />
+        <activity android:name=".Intermediate" />
+        <activity android:name=".Clause" />
+        <activity android:name=".Phrase" />
+        <activity android:name=".Tenses" />
+        <activity android:name=".Sentences" />
+        <activity android:name=".Articles" />
+        <activity android:name=".Pos" />
+        <activity android:name=".Cnp" />
+        <activity android:name=".Advanced" />
+        <activity android:name=".Idioms" />
+        <activity android:name=".Aapv" />
+        <activity android:name=".Dais"></activity>
+    </application>
+
+</manifest>

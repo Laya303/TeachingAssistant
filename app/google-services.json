@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "43035597377",
+    "firebase_url": "https://teaching-assistant-72a29.firebaseio.com",
+    "project_id": "teaching-assistant-72a29",
+    "storage_bucket": "teaching-assistant-72a29.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:43035597377:android:7940d0366dc318f1",
+        "android_client_info": {
+          "package_name": "devaguptam.sreelaya.g.teachingassistant"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "43035597377-r3thhqo2e3evtf7h976f7vnpb8mkr953.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCQwcDivA5cbD_5i8YRRrvwMnP9eqRgtJk"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
